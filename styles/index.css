@@ -41,20 +41,12 @@ body {
 }
 
 #myContainer{
-  width: 800px;
-  height:500px;
-  position: relative;
-  border: none;
-
-  background-image: url=('stephen-hocking.jpg');max-width: 100%; height:auto;
-
-  background-color: #001856;
-  opacity: .7;
+  background-image: url('../images/stephen-hocking.jpg');
+  margin-top: 140px;
+  height: 500px;
   border-radius: 10px;
-  padding-top: 100;
-  margin-top: 155px;
-  margin-right: 50px;
-  margin-left: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
 
 }
 
