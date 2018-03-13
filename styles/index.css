@@ -1,0 +1,107 @@
+a.navbar-brand{
+  color: #1a2930;
+}
+
+.navbar-defaut{
+  background-color: white;
+  border-color: transparent;
+
+}
+
+
+.topnav a{
+  text-align: center;
+  font-size: 1.4em;
+  font-weight: 400;
+  padding-right: 35px;
+  text-decoration: none;
+  margin-right: 15px;
+  color: grey;
+
+}
+
+/*make it active when hovering*/
+#mynavbar a:hover{
+  background-color: transparent;
+  color: #984b43;
+  font-style: italic;
+}
+
+#mynavbar a.active {
+  background-color: transparent;
+  color: #a3822e;
+}
+
+
+/*welcome style on index page*/
+body {
+  background-color: #FFECBB;
+  padding: 5px;
+
+}
+
+#myContainer{
+  width: 800px;
+  height:500px;
+  position: relative;
+  border: none;
+  background-image: url='stephen-hocking.jpg';
+  background-color: #001856;
+  opacity: .7;
+  border-radius: 10px;
+  padding-top: 100;
+  margin-top: 155px;
+  margin-right: 50px;
+  margin-left: auto;
+
+}
+
+
+#myContainer1{
+  text-align: center;
+  color: #1a2930;
+  font-size:6em;
+  font-family:sans-serif;
+  letter-spacing: 4px;
+  /*padding-top: 97px;*/
+}
+
+#path{
+  text-align: center;
+  word-spacing: .5px;
+  color: 1a2930;
+  font-size:3em;
+  font-family:sans-serif;
+  letter-spacing: 4px;
+  /*padding-top: 97px;*/
+}
+
+#leftpage{
+  font-size: 1.0em;
+  margin-left:10px;
+
+}
+
+#thank{
+  margin-top: 235px;
+  margin-left:20px;
+}
+
+a.more {
+  font-weight: bold;
+  word-spacing: 1.5px;
+
+  color: #36454f;
+  margin-left: 69px;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+  border-color: transparent;
+}
+
+
+a.more {
+    background-color: #984b43;
+}
